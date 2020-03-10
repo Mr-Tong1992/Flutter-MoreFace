@@ -1,0 +1,80 @@
+name: flutter_homepage
+description: 首页.
+version: 0.0.1
+author: niujinyong
+homepage:
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_swiper: ^1.1.6    # 轮播图
+
+  ## 政通私有库
+  flutter_common:
+   git:
+     url: http://172.28.39.87/flutter/flutter-common.git
+     ref: develop
+     path: flutter_common/
+#      path: ../../flutter-common/flutter_common/
+
+  json_annotation: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^1.0.0
+  json_serializable: ^3.2.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # To add assets to your package, add an assets section, like this:
+   assets:
+     - images/home_announce.png
+     - images/home_topline.png
+     - images/home_headerback_night.png
+     - images/home_header_noauth.png
+     - images/home_header_doauth.png
+     - images/home_navigationbar_downrow.png
+     - images/home_navigationbar_scan.png
+     - images/home_navigationbar_notification.png
+     - images/home_navigationbar_search.png
+     - images/home_navigationbar_back.png
+     - images/home_switchrole_header_bg.png
+     - images/home_switchrole_close.png
+     - images/home_app_default.png
+
+  #
+  # For details regarding assets in packages, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  #
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # To add custom fonts to your package, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts in packages, see
+  # https://flutter.dev/custom-fonts/#from-packages
